@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "frozen": true,
+  "hardware_connected": false,
+  "production_udp_port": 8080,
+  "loopback_preview_pixels": 921600,
+  "packet_and_row_crc_verified": true,
+  "native_rgb_verified": true,
+  "occupied_port_reported": true,
+  "receiver_reconnected": true,
+  "serial_command_exact": true,
+  "partial_uart_write_rejected": true,
+  "port_diagnostic": {
+    "pyserial_version": "3.5",
+    "ports": [
+      {
+        "device": "COM3",
+        "description": "蓝牙链接上的标准串行 (COM3)",
+        "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0002\\7&107EDF7B&1&B0F1A36A43E5_C00000000",
+        "preferred": false,
+        "bluetooth": true
+      },
+      {
+        "device": "COM4",
+        "description": "蓝牙链接上的标准串行 (COM4)",
+        "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\\7&107EDF7B&1&000000000000_00000000",
+        "preferred": false,
+        "bluetooth": true
+      }
+    ],
+    "errors": [],
+    "suggested_device": "",
+    "opens_ports": false
+  },
+  "full_photo_receiver": [
+    {
+      "passed": true,
+      "payload_bytes": 1400,
+      "datagrams": 143,
+      "exact_pixels": 2073600,
+      "all_packet_row_frame_crcs": true,
+      "frame_gamma_metadata_preserved": true,
+      "oversize_rejected": true,
+      "corrupted_packet_rejected": true,
+      "missing_chunk_retried": true,
+      "loopback_seconds": 0.0482618999958504,
+      "scope": "Loopback receiver/decoder only; not physical camera capture timing"
+    },
+    {
+      "passed": true,
+      "payload_bytes": 1024,
+      "datagrams": 195,
+      "exact_pixels": 2073600,
+      "all_packet_row_frame_crcs": true,
+      "frame_gamma_metadata_preserved": true,
+      "oversize_rejected": false,
+      "corrupted_packet_rejected": true,
+      "missing_chunk_retried": true,
+      "loopback_seconds": 0.019673799979500473,
+      "scope": "Loopback receiver/decoder only; not physical camera capture timing"
+    }
+  ]
+}

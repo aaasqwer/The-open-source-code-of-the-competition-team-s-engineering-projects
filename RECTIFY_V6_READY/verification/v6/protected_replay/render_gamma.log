@@ -1,0 +1,5 @@
+PASS frame case=0 bank=5 cycles=6896
+PASS frame case=1 bank=4 cycles=13948
+PASS frame case=2 bank=5 cycles=20980
+PASS raw live IMU at 0/+16.875/-16.875deg, BKB Gamma during resampling, all pixels and frame-owned metadata; DDR stalls/out-of-order reads
+verification/v4/tb_render_gamma.v:89: $finish called at 167848000 (1ps)

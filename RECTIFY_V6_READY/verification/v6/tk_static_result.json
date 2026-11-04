@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "actual_tk_widgets": true,
+  "static_checkbox_off_supported": true,
+  "numbers_persist_after_3_seconds": true,
+  "measure_current_button_present": true,
+  "synthetic_rms_px": 0.03521058267440758,
+  "synthetic_mtf50": 0.13563651774616717,
+  "hardware_connected": false
+}

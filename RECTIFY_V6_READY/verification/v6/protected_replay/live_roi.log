@@ -1,0 +1,3 @@
+PASS first straight fit at 275339 cycles; SFR at 399960; fits=4 SFR=1
+PASS bowed edge measured without flattening; invalid SFR rejected, independent capture survives intervening VS
+verification/v4/tb_live_roi.v:42: $finish called at 25762620000 (1ps)

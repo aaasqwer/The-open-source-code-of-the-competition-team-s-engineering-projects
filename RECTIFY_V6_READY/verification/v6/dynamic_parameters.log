@@ -1,0 +1,2 @@
+PASS dynamic parameter glyphs 179 checks, frame latching, freeze and invalid markers
+verification/v6/tb_dynamic_parameters.v:69: $finish called at 1871000 (1ps)

@@ -1,0 +1,473 @@
+[
+  {
+    "file": "中上.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\中上.png",
+    "sha256": "8ab42be84144af39dcfa3b07a738713a782e5496346b5952abf69fa3de6dcb2b",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #4829 · 当前板端画面（无字幕） · 1280×720 · 13.1 fps · 解压/CRC通过 8.0 ms · PGD1 1.58× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838992
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2119.031,
+        "bytes": "0940000000000000000000000080000000100000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 64,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 128,
+        "display_sequence": 16,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "中上矫正.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\中上矫正.png",
+    "sha256": "9c24de9edad269054b19604cc2ead035ae525468cfbe59fa81dd73a5fe2b2e8a",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #5024 · 当前板端画面（无字幕） · 1280×720 · 14.3 fps · 解压/CRC通过 7.2 ms · PGD1 1.63× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838993
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2130.828,
+        "bytes": "0941000000000000000000000081000000120000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 65,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 129,
+        "display_sequence": 18,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "中央.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\中央.png",
+    "sha256": "e4c535de3e34cbf26d05d22a9fdff2cfd53b51d3d3af52474448f460b41b5250",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #6392 · 当前板端画面（无字幕） · 1280×720 · 14.0 fps · 解压/CRC通过 7.7 ms · PGD1 1.58× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838999
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2220.734,
+        "bytes": "09400000000000000000000000800000001c0000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 64,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 128,
+        "display_sequence": 28,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "中央矫正.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\中央矫正.png",
+    "sha256": "f8395ec0043edec2e80c01eb31d065c7141a44ad3af2626e6e1f51c26b021a93",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #6547 · 当前板端画面（无字幕） · 1280×720 · 14.3 fps · 解压/CRC通过 7.1 ms · PGD1 1.64× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615839000
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2231.031,
+        "bytes": "09410000000000000000000000810000001e0000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 65,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 129,
+        "display_sequence": 30,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "右上.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\右上.png",
+    "sha256": "fe3243368af5e58bf7ac154a7a35d68310a83c0ba7100d19a02c07ef8978df1b",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "metadata": {
+      "source": "板载 OV5640 #3841 · 帧内模式：相机原图（无字幕） · RGB565 校验通过 · 采集解码 1.58s / 总等待 1.61s · PGD1 1.58× · 本次已回退串口确认 · 单帧",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "capture": {
+        "requested_mode": 0,
+        "requested_model": 1,
+        "frozen_state": {
+          "mode": 0,
+          "model": 1,
+          "gamma_step": 0,
+          "hud_enabled": false,
+          "data_page": false,
+          "lens_id": 0,
+          "lens_enabled": false,
+          "lens_fault": false,
+          "source_stage": "sensor_rgb565"
+        },
+        "invalid": false,
+        "firmware_family": "current",
+        "sequence": 3615838986,
+        "com": "COM7",
+        "requested_at": 2036.671,
+        "clean_camera_images": true,
+        "video_protocol": 9,
+        "operation_requested_at": 2036.671,
+        "source": "board_ov5640",
+        "compression_ratio": 1.5811747481756555,
+        "received_at": 2038.281,
+        "ack_transport": "uart_fallback",
+        "udp_ack_attempts": 1,
+        "uart_ack_count": 3242,
+        "frame_geometry_flags": 0,
+        "frame_control_sequence": 0,
+        "frame_geometry_association": "leased_ddr_frame",
+        "frame_id": 3841,
+        "completed": true
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2043.984,
+        "bytes": "09400000000000000000000000800000000c0000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 64,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 128,
+        "display_sequence": 12,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "右上矫正.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\右上矫正.png",
+    "sha256": "0ecb87c85d9dae98565c8c3c82bc8b44b36745521ca8231a512c7aa9cc9133f1",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #4321 · 当前板端画面（无字幕） · 1280×720 · 14.2 fps · 解压/CRC通过 7.1 ms · PGD1 1.63× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838990
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2090.437,
+        "bytes": "09410000000000000000000000810000000e0000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 65,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 129,
+        "display_sequence": 14,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "左上.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\左上.png",
+    "sha256": "822640b8e7af8dbb1343b8a263deb599396bcc2a03eb9e779d2fcfb41ed55258",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #5691 · 当前板端画面（无字幕） · 1280×720 · 13.9 fps · 解压/CRC通过 7.7 ms · PGD1 1.56× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838995
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2173.828,
+        "bytes": "0940000000000000000000000080000000140000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 64,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 128,
+        "display_sequence": 20,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "左上矫正.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\左上矫正.png",
+    "sha256": "60ed743680bedb21a85f0816c317f24b5455043a55867acd827487d000f6389e",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #5842 · 当前板端画面（无字幕） · 1280×720 · 14.2 fps · 解压/CRC通过 7.4 ms · PGD1 1.61× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838996
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2184.078,
+        "bytes": "0941000000000000000000000081000000160000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 65,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 129,
+        "display_sequence": 22,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "左下.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\左下.png",
+    "sha256": "32e32ff6e496a421ac0fc7887b5bfc20e7b8ba3fb93263fc3723146c2306ab61",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #6022 · 当前板端画面（无字幕） · 1280×720 · 14.0 fps · 解压/CRC通过 7.1 ms · PGD1 1.58× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838997
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2194.937,
+        "bytes": "0940000000000000000000000080000000180000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 64,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 128,
+        "display_sequence": 24,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  },
+  {
+    "file": "左下矫正.png",
+    "path": "F:\\FPGA\\ji bian\\picture3\\左下矫正.png",
+    "sha256": "da6591ab9a6a41f6eb1d0be945ce2dfc920febbe264f3b7b360961972f5c5e93",
+    "resolution": [
+      1280,
+      720
+    ],
+    "metadata": {
+      "source": "板端画面预览 · 渲染帧 #6146 · 当前板端画面（无字幕） · 1280×720 · 14.1 fps · 解压/CRC通过 7.5 ms · PGD1 1.63× · 压缩行 720/720",
+      "resolution": [
+        1280,
+        720
+      ],
+      "capture": {
+        "source": "board_ov5640",
+        "preview": true,
+        "frozen_state": {
+          "mode": 1,
+          "model": 1,
+          "source_stage": "rendered_gamma_no_osd"
+        },
+        "requested_mode": 1,
+        "requested_model": 1,
+        "com": "COM7",
+        "sequence": 3615838998
+      },
+      "geometry_readback_at_save": {
+        "kind": 133,
+        "received": 2203.39,
+        "bytes": "09410000000000000000000000810000001a0000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "protocol_version": 9,
+        "ui_flags": 65,
+        "plane_valid": false,
+        "busy": false,
+        "errors": 0,
+        "geometry_version": 0,
+        "display_flags": 129,
+        "display_sequence": 26,
+        "bilinear_preview": true,
+        "leased_ddr_photo": true
+      },
+      "geometry_association": "Readback at save time is not fenced to this photo; capture.frozen_state identifies the processing channel; capture.frame_geometry_flags/control_sequence are frame-bound only when frame_geometry_association is leased_ddr_frame."
+    }
+  }
+]

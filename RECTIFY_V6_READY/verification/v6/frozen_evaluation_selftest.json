@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "analytic_gaussian_cases": [
+    {
+      "sigma": 0.8,
+      "angle": 3.0,
+      "expected_mtf50": 0.23423828141159697,
+      "measured_mtf50": 0.23421486381790574
+    },
+    {
+      "sigma": 0.8,
+      "angle": 5.0,
+      "expected_mtf50": 0.23423828141159697,
+      "measured_mtf50": 0.23489101356366135
+    },
+    {
+      "sigma": 0.8,
+      "angle": 8.0,
+      "expected_mtf50": 0.23423828141159697,
+      "measured_mtf50": 0.23417277639152878
+    },
+    {
+      "sigma": 1.4,
+      "angle": 3.0,
+      "expected_mtf50": 0.13385044652091255,
+      "measured_mtf50": 0.1350340051349345
+    },
+    {
+      "sigma": 1.4,
+      "angle": 5.0,
+      "expected_mtf50": 0.13385044652091255,
+      "measured_mtf50": 0.13509886846711341
+    },
+    {
+      "sigma": 1.4,
+      "angle": 8.0,
+      "expected_mtf50": 0.13385044652091255,
+      "measured_mtf50": 0.13500856753338275
+    },
+    {
+      "sigma": 2.2,
+      "angle": 3.0,
+      "expected_mtf50": 0.08517755687694435,
+      "measured_mtf50": 0.08713758817812331
+    },
+    {
+      "sigma": 2.2,
+      "angle": 5.0,
+      "expected_mtf50": 0.08517755687694435,
+      "measured_mtf50": 0.08713458239132962
+    },
+    {
+      "sigma": 2.2,
+      "angle": 8.0,
+      "expected_mtf50": 0.08517755687694435,
+      "measured_mtf50": 0.08711419011242046
+    }
+  ],
+  "bowed_edge_not_flattened": true
+}

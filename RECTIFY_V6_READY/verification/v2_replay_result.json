@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "includes_native": true,
+  "tests": [
+    {
+      "name": "preview",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_v2_network.v": "d540f58aed0fcd865c239dbf63805ffe45cfbc6d3133dd97175558d1e004fef7",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360",
+        "source/rtl/camera_gamma_table.v": "ea7a351060d27f51249d55f679c4a1a18a1498330c22eacea0f985ffb1cc91a2",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5",
+        "source/transport/rect_preview_stream.v": "a3db7a846082d79d836d2e3b77a376f1f5f458f5a561ab5092ea6044cdd7a7c9",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500",
+        "source/transport/hd_preview_udp_tx.v": "8a5227eba03855587ed3f356d1bcbe93bac286eb18cfb3df1ae2b5bfb4a1c824"
+      },
+      "frames": 4,
+      "pixels": 12288,
+      "packets_crc_checked": 192
+    },
+    {
+      "name": "photo",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_v2_photo.v": "f304a16d78ee95fd024bc2d41646ae2da2e2943ba23091b3940e53b8ee4eea42",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360",
+        "source/rtl/camera_gamma_table.v": "ea7a351060d27f51249d55f679c4a1a18a1498330c22eacea0f985ffb1cc91a2",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5",
+        "source/transport/fast_snapshot_ctrl.v": "39ea5bd5f2577bba4c8d5bf967510877c56cfe8244b7662064b4f97bf7dd34e2",
+        "source/transport/rgb565_line_encoder.v": "adbde775f3cdd552e289c0c636c03c590d802925bb09443d8aa597d6d376b133",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500",
+        "source/transport/uart_packet_tx.v": "4a0873cac058df40bf5ff1c6cc11e05dcf2e5a4db33733467ffaeb037fb7e094"
+      },
+      "pixels": 6912,
+      "packet_crcs": true,
+      "hdmi_vsync_held_low": true
+    },
+    {
+      "name": "tb_raw_edges",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_raw_edges_v2.v": "e6b7f4faf8a4636aa1f3c62650858fd72de1f951d58682e087811abbc854600d",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/network_read_arbiter.v": "b21d3141ce28232f184ec64cc3f487b2ff871c4dba76f46f7d9679a99660d025",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    },
+    {
+      "name": "tb_raw_reset_grant",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_raw_reset_grant_v2.v": "9939fa8da922dadc38d1a4dfb375a75a9c45b84afb6e8d8ba6610f8751ca5936",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/network_read_arbiter.v": "b21d3141ce28232f184ec64cc3f487b2ff871c4dba76f46f7d9679a99660d025",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    },
+    {
+      "name": "tb_network_zero_latency",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_network_zero_latency_v2.v": "723529b6bb57b94a76d19af7cb56c963b22b670f1070b681f70adb3beaf85d1f",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/network_read_arbiter.v": "b21d3141ce28232f184ec64cc3f487b2ff871c4dba76f46f7d9679a99660d025",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    },
+    {
+      "name": "tb_photo_progress",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_photo_progress_v2.v": "e879f3649fd8acd791e028c7cd07d608c5eccbe2c8c95ee3b2b1da4dcc4734ce",
+        "source/transport/fast_snapshot_ctrl.v": "39ea5bd5f2577bba4c8d5bf967510877c56cfe8244b7662064b4f97bf7dd34e2",
+        "source/transport/rgb565_line_encoder.v": "adbde775f3cdd552e289c0c636c03c590d802925bb09443d8aa597d6d376b133",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500",
+        "source/transport/uart_packet_tx.v": "4a0873cac058df40bf5ff1c6cc11e05dcf2e5a4db33733467ffaeb037fb7e094"
+      }
+    },
+    {
+      "name": "tb_photo_abort",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_photo_abort_v2.v": "6a444f1838d8a0b1e69b183973c35f3e7611be2958354c793966d9849af40630",
+        "source/transport/fast_snapshot_ctrl.v": "39ea5bd5f2577bba4c8d5bf967510877c56cfe8244b7662064b4f97bf7dd34e2",
+        "source/transport/rgb565_line_encoder.v": "adbde775f3cdd552e289c0c636c03c590d802925bb09443d8aa597d6d376b133",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500",
+        "source/transport/uart_packet_tx.v": "4a0873cac058df40bf5ff1c6cc11e05dcf2e5a4db33733467ffaeb037fb7e094"
+      }
+    },
+    {
+      "name": "preview_native",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_v2_network_native.v": "3c01e36c1deb614d85e7642a9c716b85c7f34c7d6371849f0df502718056761d",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360",
+        "source/rtl/camera_gamma_table.v": "ea7a351060d27f51249d55f679c4a1a18a1498330c22eacea0f985ffb1cc91a2",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5",
+        "source/transport/rect_preview_stream.v": "a3db7a846082d79d836d2e3b77a376f1f5f458f5a561ab5092ea6044cdd7a7c9",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500",
+        "source/transport/hd_preview_udp_tx.v": "8a5227eba03855587ed3f356d1bcbe93bac286eb18cfb3df1ae2b5bfb4a1c824"
+      },
+      "frames": 1,
+      "pixels": 921600,
+      "packets_crc_checked": 1440
+    }
+  ]
+}

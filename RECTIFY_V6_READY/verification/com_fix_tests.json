@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": 16,
+  "hardware_connected": false,
+  "source_sha256": {
+    "host/app.py": "7e750acb02e6c75bac95b305d3c4016613f3707ae639fc2f0262a70eae83b384",
+    "host/serial_ports.py": "f1782495446f202c6c1d5086392889343e86b33bc6cd0873c64ab9c08a078b20",
+    "run_host.py": "bf46a67c42ae1cb5a81cd7e9a968c8f8ff9587d72377aca3024e6463f0bb6102",
+    "tools/build_host.py": "5457c39a6d3a8d873d3e692b69a7a556dc51061e51bc22f232520bbbb6873e80",
+    "host/release_version.py": "dbe3e659f4be3fd48d292d2934a9f9057ab3dc7aa1e030f4c153832eb6c80ddd"
+  }
+}

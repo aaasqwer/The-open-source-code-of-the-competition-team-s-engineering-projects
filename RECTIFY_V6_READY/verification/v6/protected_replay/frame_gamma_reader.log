@@ -1,0 +1,2 @@
+PASS rendered frame lease keeps its own Gamma metadata and pixels; no second Gamma despite different live control, 32 exact pixels
+verification/v4/tb_frame_gamma_reader.v:26: $finish called at 1190000 (1ps)

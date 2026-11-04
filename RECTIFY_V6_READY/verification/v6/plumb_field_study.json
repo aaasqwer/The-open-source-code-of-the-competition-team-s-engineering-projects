@@ -1,0 +1,134 @@
+{
+  "status": "RESEARCH_NOT_INSTALLED",
+  "candidates": [
+    {
+      "degree": 2,
+      "regularizer": 1.0,
+      "cross_view_validation_rms": 0.6630299952885453
+    },
+    {
+      "degree": 2,
+      "regularizer": 8.0,
+      "cross_view_validation_rms": 0.6626285310014546
+    },
+    {
+      "degree": 2,
+      "regularizer": 32.0,
+      "cross_view_validation_rms": 0.6632699253862695
+    },
+    {
+      "degree": 3,
+      "regularizer": 1.0,
+      "cross_view_validation_rms": 0.6617463006203558
+    },
+    {
+      "degree": 3,
+      "regularizer": 8.0,
+      "cross_view_validation_rms": 0.6592000501257068
+    },
+    {
+      "degree": 3,
+      "regularizer": 32.0,
+      "cross_view_validation_rms": 0.6615699142740874
+    },
+    {
+      "degree": 4,
+      "regularizer": 1.0,
+      "cross_view_validation_rms": 0.6616125214090728
+    },
+    {
+      "degree": 4,
+      "regularizer": 8.0,
+      "cross_view_validation_rms": 0.6591263368979231
+    },
+    {
+      "degree": 4,
+      "regularizer": 32.0,
+      "cross_view_validation_rms": 0.6601186413305223
+    }
+  ],
+  "selected_on_training_only": {
+    "degree": 3,
+    "regularizer": 8.0,
+    "cross_view_validation_rms": 0.6592000501257068
+  },
+  "coefficients_pixels": [
+    [
+      0.07477984035621597,
+      -0.649998342556744
+    ],
+    [
+      0.04230742405561215,
+      -0.14503668850431733
+    ],
+    [
+      0.3311434812833404,
+      0.5110732179534879
+    ],
+    [
+      0.02075616764698352,
+      -1.6833343465924573
+    ],
+    [
+      1.117236005347467,
+      0.3409707808685258
+    ],
+    [
+      0.024013245009829664,
+      0.7367151334598956
+    ],
+    [
+      -1.0517208529335316,
+      -0.15686296272328834
+    ]
+  ],
+  "output_K": [
+    [
+      831.0109034830309,
+      0.0,
+      911.8144349749281
+    ],
+    [
+      0.0,
+      829.699517611785,
+      577.8114670431225
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "maximum_grid_displacement_px": 2.0,
+  "results": [
+    {
+      "role": "training",
+      "model": "V5",
+      "samples": 78229,
+      "rms_px": 0.6683902034201484,
+      "max_abs_px": 4.178709417484949
+    },
+    {
+      "role": "training",
+      "model": "candidate",
+      "samples": 78229,
+      "rms_px": 0.6631714166882684,
+      "max_abs_px": 4.151831680939744
+    },
+    {
+      "role": "examined_comparison",
+      "model": "V5",
+      "samples": 18263,
+      "rms_px": 0.7158896830212442,
+      "max_abs_px": 3.936421280102979
+    },
+    {
+      "role": "examined_comparison",
+      "model": "candidate",
+      "samples": 18263,
+      "rms_px": 0.7120408341676457,
+      "max_abs_px": 3.7033056611592547
+    }
+  ],
+  "all_scoring_points_kept": true
+}

@@ -1,0 +1,2 @@
+PASS exact old/new 1080P mesh pipeline equivalence: 17142 coordinates, 463 invalid-domain flags, one cycle only
+verification/v6/tb_lens_pipeline.v:52: $finish called at 160152000 (1ps)

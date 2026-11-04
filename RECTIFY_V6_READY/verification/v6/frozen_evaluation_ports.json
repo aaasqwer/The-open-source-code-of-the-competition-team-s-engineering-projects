@@ -1,0 +1,22 @@
+{
+  "pyserial_version": "3.5",
+  "ports": [
+    {
+      "device": "COM3",
+      "description": "蓝牙链接上的标准串行 (COM3)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0002\\7&107EDF7B&1&B0F1A36A43E5_C00000000",
+      "preferred": false,
+      "bluetooth": true
+    },
+    {
+      "device": "COM4",
+      "description": "蓝牙链接上的标准串行 (COM4)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\\7&107EDF7B&1&000000000000_00000000",
+      "preferred": false,
+      "bluetooth": true
+    }
+  ],
+  "errors": [],
+  "suggested_device": "",
+  "opens_ports": false
+}

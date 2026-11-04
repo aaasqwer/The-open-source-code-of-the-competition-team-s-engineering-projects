@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "tests": [
+    {
+      "name": "controls",
+      "passed": true,
+      "inputs": {
+        "verification/tb_controls.v": "75588ce7e978d04f91d8bbeb07650383d092985d7ed1cf0d37ab8f76e8c20697",
+        "source/rtl/rect_board_ui.v": "64631b8df1ce2f515b37a36a0a7e59ea9bde88904ed20555791ecd47e1a42817",
+        "source/rtl/rect_geometry_bank.v": "12f6adf7139ecb384bd0e7cff1e5ddba6227bcf69952124fd8db2336451172e6",
+        "source/transport/host_command_parser.v": "a65bfadbe24b7b7a34217b5f61a34ba80b9ca22a49cba17e21b9e791ee360225"
+      }
+    },
+    {
+      "name": "pose_timing",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_pose_timing.v": "42bf365d4f927d586396cd06e68c7af6d43c737cbc5f306aef908f8146f844e4",
+        "source/rtl/camera_frame_writer.v": "74634414011f2cb3677b390026e5fd7165b5830f4e020ed930a1f2b762499e99"
+      }
+    },
+    {
+      "name": "parameter_overlay",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_parameter_overlay.v": "71f4d92a7872d393e03f4a452098b8e1fe0f931a48f737106149c31ccbc236f7",
+        "source/rtl/status_cn_overlay.v": "f7ff4bd27e6f5e5693cbfc6107d48e937125ba938fd1d26e1d210ca80b37a3dc"
+      }
+    },
+    {
+      "name": "photo_fence",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_photo_fence.v": "d1378a983319161e874a96dd1d269f52fde6bce69de6c4a2172bf6fb62e23ff8",
+        "source/rtl/return_pc_bridge.v": "461b335c57340f510366914f77a41537e426875bb565caed1953efdb8577f598",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    },
+    {
+      "name": "window_1_0",
+      "passed": true,
+      "inputs": {
+        "verification/v6/window_1_0.v": "646be32b47bba58b4d0e1399f86889ebdb2876b5d463521b8d598e9e2cb3cc43",
+        "source/transport/ethernet_image_tx.v": "cabdd420d3fd6b691794a55cc5ad4d96d13d93369fdda98323c99accacf7398c",
+        "source/transport/ethernet_photo_window.v": "5c5ccc05c1dcaded4f227131b6093bda141eeaa1cb0ce68b470d87d9b3b0ce00"
+      },
+      "cycles": 112449,
+      "duplicates": 0,
+      "exact_mac_crc": true
+    },
+    {
+      "name": "window_4_0",
+      "passed": true,
+      "inputs": {
+        "verification/v6/window_4_0.v": "a1b3bae7194cf5d942f786cc24c7ce5e080055c63acb657c83de43b27fbaef22",
+        "source/transport/ethernet_image_tx.v": "cabdd420d3fd6b691794a55cc5ad4d96d13d93369fdda98323c99accacf7398c",
+        "source/transport/ethernet_photo_window.v": "5c5ccc05c1dcaded4f227131b6093bda141eeaa1cb0ce68b470d87d9b3b0ce00"
+      },
+      "cycles": 34668,
+      "duplicates": 0,
+      "exact_mac_crc": true
+    },
+    {
+      "name": "window_4_1",
+      "passed": true,
+      "inputs": {
+        "verification/v6/window_4_1.v": "a1b3bae7194cf5d942f786cc24c7ce5e080055c63acb657c83de43b27fbaef22",
+        "source/transport/ethernet_image_tx.v": "cabdd420d3fd6b691794a55cc5ad4d96d13d93369fdda98323c99accacf7398c",
+        "source/transport/ethernet_photo_window.v": "5c5ccc05c1dcaded4f227131b6093bda141eeaa1cb0ce68b470d87d9b3b0ce00"
+      },
+      "cycles": 47907,
+      "duplicates": 4,
+      "exact_mac_crc": true
+    },
+    {
+      "name": "window_timeout",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_pc4_window_timeout.v": "c48f36904ff6587bb2c15005f2587c87e3dc70af0a85076cfd63ee6b964b259d",
+        "source/transport/ethernet_photo_window.v": "5c5ccc05c1dcaded4f227131b6093bda141eeaa1cb0ce68b470d87d9b3b0ce00"
+      }
+    },
+    {
+      "name": "photo_encoder_exact",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_photo_encoder_exact.v": "a1e7c705854329592ca00991d210b3fb9b2a83c30608d2010f70df426790ce38",
+        "source/transport/rgb565_line_encoder.v": "adbde775f3cdd552e289c0c636c03c590d802925bb09443d8aa597d6d376b133",
+        "source/transport/preview_line_encoder.v": "c80d692c06d50fef94deb773b44d8f713b6dca1475c8d6a66f907f7d881ee500"
+      }
+    },
+    {
+      "name": "sfr_hold",
+      "passed": true,
+      "inputs": {
+        "verification/v5/tb_sfr_hold.v": "d1c8591857c9f0095d64598976a4a7dfd14b8d056e1f6deda7078501bff83cb7",
+        "source/evaluation/roi_evaluator.v": "7fe042eca2254fd379a2a0ad43dc84ccad4a08e0a337c1665bcc752c3583fb60",
+        "source/evaluation/roi_edge_core.v": "05cf183e76fae970ef4149c52eaf1c8b80e5a63f0ce705b6fa0f2121e6d34dd9",
+        "source/evaluation/straightness_meter.v": "262eed1055c0abe8178b099bfbfb947683d1114839c37b7eb74436f987820854",
+        "source/evaluation/sfr_meter.v": "fa87e7268676c281e38eef8899696063b6741de48d1eeaf18c49021bf225f887",
+        "source/evaluation/measurement_window.v": "d98cf9a9e17f9b00b57e3a283c65f0de3c1b8656dc5d59dc6d3ec8dd06445cd6"
+      }
+    },
+    {
+      "name": "mapping_v6",
+      "passed": true,
+      "inputs": {
+        "verification/v6/tb_v6_mapping.v": "b87aadc590f554c4d23b4b0651028717ba3ea4e1ef84e9fde7b8674202f59967",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44"
+      }
+    },
+    {
+      "name": "hidden_osd",
+      "passed": true,
+      "inputs": {
+        "verification/v6/tb_hidden_osd.v": "27a3dd9c08dabfdaaabb4b9f31ae02b54bd776e859471c560d34ba84bf985d1b",
+        "source/rtl/status_cn_overlay.v": "f7ff4bd27e6f5e5693cbfc6107d48e937125ba938fd1d26e1d210ca80b37a3dc",
+        "source/rtl/imu_hud_overlay.v": "b652874be5167e9e25012d5c5f00b89ac4f3e9d047fae828b16aa874cc998f43",
+        "source/rtl/imu_font_cn.v": "f07ec08a82d33f33dc3163e0837fa73b2b7b293759b0f8c3026fcb7733070557"
+      }
+    },
+    {
+      "name": "dynamic_parameters",
+      "passed": true,
+      "inputs": {
+        "verification/v6/tb_dynamic_parameters.v": "d1c9239477f712b22243ae90438d7bab32ae671af69f4cc3bb2521c145f261fc",
+        "source/rtl/status_cn_overlay.v": "f7ff4bd27e6f5e5693cbfc6107d48e937125ba938fd1d26e1d210ca80b37a3dc"
+      }
+    },
+    {
+      "name": "lens_pipeline",
+      "passed": true,
+      "inputs": {
+        "verification/v6/tb_lens_pipeline.v": "b453d7d5b648daa3d2982b0bf93c14a35a8aa0cf32f571f0447980fd35319a75",
+        "verification/v6/lens_field_before.v": "a4fc4ef7d0093d5ff97fa50f1c30f39a20e5882781d44cab9e59c35ddd662f4c",
+        "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+PASS SFR Gaussian case=0 mtf50_q16=15376 expected=15351
+PASS SFR Gaussian case=1 mtf50_q16=15442 expected=15351
+PASS SFR Gaussian case=2 mtf50_q16=15381 expected=15351
+PASS SFR Gaussian case=3 mtf50_q16=8924 expected=8772
+PASS SFR Gaussian case=4 mtf50_q16=8929 expected=8772
+PASS SFR Gaussian case=5 mtf50_q16=8927 expected=8772
+PASS SFR Gaussian case=6 mtf50_q16=5847 expected=5582
+PASS SFR Gaussian case=7 mtf50_q16=5848 expected=5582
+PASS SFR Gaussian case=8 mtf50_q16=5845 expected=5582
+PASS SFR invalid slant, bowing and clipping rejected
+verification/v4/tb_sfr_math.v:25: $finish called at 12200350000 (1ps)

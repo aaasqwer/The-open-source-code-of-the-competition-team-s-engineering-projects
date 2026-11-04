@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "project": "F:\\FPGA\\ji bian\\RECTIFY_V6_READY",
+  "native_pds_project_parsed": true,
+  "all_hardware_inputs_unchanged": true,
+  "gamma_imu_exposure_color_and_network_code_unchanged": true,
+  "tests": [
+    {
+      "name": "host_smoke",
+      "passed": true
+    },
+    {
+      "name": "host_ports",
+      "passed": true
+    },
+    {
+      "name": "host_connections",
+      "passed": true
+    },
+    {
+      "name": "evaluation_selftest",
+      "passed": true
+    },
+    {
+      "name": "evaluation_ports",
+      "passed": true
+    }
+  ],
+  "hardware_tested": false
+}

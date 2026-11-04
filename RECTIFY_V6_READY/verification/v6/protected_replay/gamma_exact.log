@@ -1,0 +1,2 @@
+PASS exact original Gamma pixels/RGB888/sync for 1114112 RGB565/step combinations; one extra clock only
+verification/v4/tb_gamma_exact.v:23: $finish called at 8913000000 (1ps)

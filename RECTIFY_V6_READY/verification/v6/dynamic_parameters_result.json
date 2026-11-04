@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "scope": "Actual OSD glyph selection under changing source inputs; not real sensor accuracy certification",
+  "changing_values_tested": [
+    "mean",
+    "contrast",
+    "gamma_step",
+    "bypass",
+    "lens_valid",
+    "lens_enabled",
+    "lens_fault",
+    "lens_sequence",
+    "request_camera_render_display_angles",
+    "camera_fps",
+    "actual_dimensions",
+    "geometry_bad",
+    "exposure_readback",
+    "gain_readback",
+    "relative_light",
+    "light_error"
+  ],
+  "frame_snapshot_coherent": true,
+  "frozen_values_held": true,
+  "invalid_values_are_dashes": true,
+  "inputs": {
+    "verification/v6/tb_dynamic_parameters.v": "d1c9239477f712b22243ae90438d7bab32ae671af69f4cc3bb2521c145f261fc",
+    "source/rtl/status_cn_overlay.v": "f7ff4bd27e6f5e5693cbfc6107d48e937125ba938fd1d26e1d210ca80b37a3dc"
+  }
+}

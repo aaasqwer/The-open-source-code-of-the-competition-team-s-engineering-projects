@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "exe_sha256": "1b550ec0e561922654e7a2c2401e24e02ce4e7ac81aa9c09962b6735df26bfa0",
+  "hardware_connected": false,
+  "inputs": {
+    "evaluation/audit_calibration.py": "f648d5d5c8b3e7fd1aa4936b79074687621c3584beb199bc85a63088150d2f42",
+    "evaluation/capture_performance.py": "01909385483527a16a21607fde5cf5939f5ff03cba2d26b3136e3a5a51905db0",
+    "evaluation/decode_performance.py": "e72abdc0ef27c7180760d51fd95892615c8de99387f69cee25d653be12474bdd",
+    "evaluation/edge_detection.py": "6b86cb50ad79c9f82cddcb0e6eb4660fd749cecc50e3c6a455b11b3edc540a31",
+    "evaluation/evaluation_app.py": "cf914b4ebf18f232c49c515db381cd9db0fe9654bb9b75793a24b4a1c1209a50",
+    "evaluation/image_quality.py": "327fe902b855d1d409480f3bc6b49ba396f9312ae9a1ecfb65a19fdd7c8e29f3",
+    "evaluation/serial_ports.py": "f1782495446f202c6c1d5086392889343e86b33bc6cd0873c64ab9c08a078b20"
+  }
+}

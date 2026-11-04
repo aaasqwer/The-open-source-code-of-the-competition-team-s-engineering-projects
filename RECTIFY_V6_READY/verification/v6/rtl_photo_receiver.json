@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "payload_bytes": 1400,
+  "datagrams": 2988,
+  "exact_pixels": 2073600,
+  "all_packet_row_frame_crcs": true,
+  "frame_gamma_metadata_preserved": true,
+  "oversize_rejected": true,
+  "corrupted_packet_rejected": true,
+  "missing_chunk_retried": true,
+  "loopback_seconds": 0.19486670001060702,
+  "scope": "Loopback receiver/decoder only; not physical camera capture timing"
+}

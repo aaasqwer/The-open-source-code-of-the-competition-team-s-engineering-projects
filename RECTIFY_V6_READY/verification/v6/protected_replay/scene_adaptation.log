@@ -1,0 +1,2 @@
+PASS raw-scene adaptive Gamma: dark->step5, held state fixed, bright->neutral, partial frames rejected, active-pixel curve stable
+verification/v4/tb_scene_adaptation.v:31: $finish called at 354670000 (1ps)

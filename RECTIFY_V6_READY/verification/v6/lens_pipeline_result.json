@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "exact_coordinates": 17142,
+  "full_1080p_mesh_and_spill": true,
+  "invalid_domain_flags_compared": true,
+  "throughput_one_coordinate_per_cycle": true,
+  "additional_latency_cycles": 1,
+  "baseline_lens_sha256": "a78595915a94cea4c0d223169825f440494468703d3697a77411be159b05c5b5",
+  "inputs": {
+    "verification/v6/tb_lens_pipeline.v": "b453d7d5b648daa3d2982b0bf93c14a35a8aa0cf32f571f0447980fd35319a75",
+    "verification/v6/lens_field_before.v": "a4fc4ef7d0093d5ff97fa50f1c30f39a20e5882781d44cab9e59c35ddd662f4c",
+    "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+    "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44"
+  }
+}

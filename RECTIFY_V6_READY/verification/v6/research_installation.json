@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "research_record": "plumb_field_study.json",
+  "installed_profile": {
+    "enabled": true,
+    "degree": 3,
+    "monomial_powers": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "coefficients_pixels": [
+      [
+        0.07477984035621597,
+        -0.649998342556744
+      ],
+      [
+        0.04230742405561215,
+        -0.14503668850431733
+      ],
+      [
+        0.3311434812833404,
+        0.5110732179534879
+      ],
+      [
+        0.02075616764698352,
+        -1.6833343465924573
+      ],
+      [
+        1.117236005347467,
+        0.3409707808685258
+      ],
+      [
+        0.024013245009829664,
+        0.7367151334598956
+      ],
+      [
+        -1.0517208529335316,
+        -0.15686296272328834
+      ]
+    ],
+    "inverse_fixed_point_iterations": 2,
+    "maximum_displacement_px": 2.0,
+    "method": "Bounded plumb-line residual, three-fold cross-view selection on training photos only; Brown k1,k2,p1,p2 and radial residual retained",
+    "compared_same_point_rms_before_px": 0.7158896830212442,
+    "compared_same_point_rms_after_px": 0.7120408341676457,
+    "max_abs_before_px": 3.936421280102979,
+    "max_abs_after_px": 3.7033056611592547,
+    "acceptance": "Small offline improvement, not proof of sub-0.5px full-field optical accuracy"
+  },
+  "scoring_points_kept": true,
+  "comparison_previously_examined": true,
+  "training_only_selection": {
+    "degree": 3,
+    "regularizer": 8.0,
+    "cross_view_validation_rms": 0.6592000501257068
+  }
+}

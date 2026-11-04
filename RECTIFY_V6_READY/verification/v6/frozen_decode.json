@@ -1,0 +1,38 @@
+{
+  "scope": "Synthetic PGD1 frames from the named image; CPU decode only, excludes NIC, camera exposure, render and Tk display.",
+  "native_available": true,
+  "native_frame_available": true,
+  "input_sha256": "128d89ba18ae06bafae8904ad9f89bdc60493057a8ba64f38c55a0d20e9da5ea",
+  "results": [
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "native",
+      "rounds": 20,
+      "decode_median_ms": 3.8476500049000606,
+      "decode_p95_ms": 3.969150000193622,
+      "decode_and_rgb_median_ms": 7.393050007522106,
+      "exact_rgb565": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "fallback",
+      "rounds": 20,
+      "decode_median_ms": 103.84740002336912,
+      "decode_p95_ms": 115.42071501171449,
+      "decode_and_rgb_median_ms": 116.76090001128614,
+      "exact_rgb565": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "path": "native",
+      "rounds": 20,
+      "decode_median_ms": 7.954049986437894,
+      "decode_p95_ms": 10.09473498852458,
+      "decode_and_rgb_median_ms": 15.946399988024496,
+      "exact_rgb565": true
+    }
+  ]
+}

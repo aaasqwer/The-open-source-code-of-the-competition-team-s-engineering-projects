@@ -1,0 +1,30 @@
+{
+  "version": "V6_READY",
+  "root": "F:\\FPGA\\ji bian\\RECTIFY_V6_READY",
+  "source": "F:\\FPGA\\ji bian\\RECTIFY_V6_STATIC_DARK_CAPTURE_20261102_222106",
+  "created_utc": "2026-11-03T06:37:27.242207+00:00",
+  "selected_files": 4382,
+  "excluded_files": 379,
+  "excluded_bytes": 293973462,
+  "source_manifest_sha256": "b596f5f36ebec1f704d547cc0f75d6eb2c935a68f1b7663dd85c0392df46e5b6",
+  "pds_source_device_and_build_options_preserved": true,
+  "pds_generated_state_cleared": true,
+  "core_unchanged": true,
+  "bitstream_sha256": "f70ce8cba14164c9bb286581fa5cde176ea88ad768c72cf6a2312135901fccee",
+  "host_exe_sha256": "b5a7424e51cf52845e29f90da781e3f28abfb07212eae914f42da2499b10d6e2",
+  "evaluation_exe_sha256": "1b550ec0e561922654e7a2c2401e24e02ce4e7ac81aa9c09962b6735df26bfa0",
+  "all_build_inputs_unchanged": true,
+  "hardware_tested": false,
+  "omitted_categories": [
+    "old version bitstreams and root notes",
+    "historical compilation logs",
+    "duplicate host/deps",
+    "temporary simulation binaries",
+    "old preview trials"
+  ],
+  "outside_directories_modified": false,
+  "passed": true,
+  "portable_app_checks_passed": true,
+  "native_pds_project_parsed": true,
+  "final_bytes": 340331208
+}

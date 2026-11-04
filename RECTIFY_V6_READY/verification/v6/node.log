@@ -1,0 +1,2 @@
+PASS 1185 exact Brown/shared cubic/radial nodes; foreign-profile guard; max cycles=510
+verification/v6/tb_v6_mapping.v:21: $finish called at 2903300000 (1ps)

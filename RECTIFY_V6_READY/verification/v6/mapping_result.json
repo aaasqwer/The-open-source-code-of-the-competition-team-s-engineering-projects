@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "exact_node_cases": 1185,
+  "max_float_difference_px": 0.003555720042413668,
+  "nonradial_jacobian_min": 0.9927521186905427,
+  "nonradial_jacobian_max": 1.0001409397883128,
+  "existing_shared_multiplier_reused": true,
+  "per_pixel_rgb_algorithm_unchanged": true,
+  "coordinate_pipeline_extra_cycles": 1,
+  "inputs": {
+    "verification/v6/tb_v6_mapping.v": "b87aadc590f554c4d23b4b0651028717ba3ea4e1ef84e9fde7b8674202f59967",
+    "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44",
+    "calibration/profile_config.vh": "c066a1a0e615bfacce5612504f453078562a2de5e3f13d286fe2876823476621",
+    "calibration/nonradial_residual_q24.hex": "5cae1417c4e80f8b3e36829939e2430988a19a6d28f10fbaefff05b04b898d25",
+    "calibration/radial_residual_q24.hex": "681f3ed5883d8f25cb5b20bf7ca7cbc268ffee553d05b61ded2f0a8369ddede1"
+  }
+}

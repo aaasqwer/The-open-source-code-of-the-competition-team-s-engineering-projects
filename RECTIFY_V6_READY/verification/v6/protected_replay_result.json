@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "tests": [
+    {
+      "name": "render_gamma",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_render_gamma.v": "c9c430e50bd0352fe0210131a40ae2ac66264d14e3368c0428576b5ee7c696a0",
+        "source/rtl/rect_frame_engine.v": "5205a6367ba545872bdce0256e128982c32d0d53915e67a4425c98dec1aa0e86",
+        "source/rtl/rect_coordinate_tiles.v": "40283e9af16c6781bece25f03684e84395a76b2f7d0fccf27ca62b0f64de600f",
+        "source/rtl/rect_projective_pipe.v": "6bd58eed697f212011357851ee0468bb74272b34983424e644b5e2d7e3c0eb26",
+        "source/rtl/rect_wide_mul_pipe.v": "e1712992da31f9b480365c839de1a22f08d8a2d526b29e95221b48b222b89dbf",
+        "source/rtl/rect_imu_affine_pipe.v": "be5e708fc40a5def2242c2ddeb553dddb91af35ec0d0c6e4dcf53c25221c31e0",
+        "source/rtl/rect_tile_sampler.v": "34bd1dcf713578b1184acbc08a71d9a857392b9b4f12b136e0a7d39cb2a7fea6",
+        "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44",
+        "source/rtl/bilinear_rgb565_pipe.v": "3a61760711d2a432441a2cc817a74d8460c67cae441913525a50f1633b07784f",
+        "source/rtl/imu_rotation_coeff.v": "5019ecedfc831b1e6747d2ef3fb7ca015257bb8673923298609741e86824a78a",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "sfr_math",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_sfr_math.v": "89fd98dd001035fada043e4f2485bfe8cca0ffd0c63eae4728305e5e15a38ac1",
+        "source/evaluation/sfr_meter.v": "fa87e7268676c281e38eef8899696063b6741de48d1eeaf18c49021bf225f887"
+      }
+    },
+    {
+      "name": "live_roi",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_live_roi.v": "bb970806018c048f95a842960297da19e2bc90a032d93f3b8a7ff78b09b6abea",
+        "source/evaluation/roi_evaluator.v": "7fe042eca2254fd379a2a0ad43dc84ccad4a08e0a337c1665bcc752c3583fb60",
+        "source/evaluation/roi_edge_core.v": "05cf183e76fae970ef4149c52eaf1c8b80e5a63f0ce705b6fa0f2121e6d34dd9",
+        "source/evaluation/straightness_meter.v": "262eed1055c0abe8178b099bfbfb947683d1114839c37b7eb74436f987820854",
+        "source/evaluation/sfr_meter.v": "fa87e7268676c281e38eef8899696063b6741de48d1eeaf18c49021bf225f887",
+        "source/evaluation/measurement_window.v": "d98cf9a9e17f9b00b57e3a283c65f0de3c1b8656dc5d59dc6d3ec8dd06445cd6"
+      }
+    },
+    {
+      "name": "frame_gamma_reader",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_frame_gamma_reader.v": "7a9d696a2c8edf5b53f79a0dd531619c1f5834c122723b58103bc35f542bb586",
+        "source/rtl/network_pair_reader.v": "e6612335b0a7f176dbf1be6c09cc02bcdc9648904a4ae84e5688d8aae8419d68",
+        "source/rtl/network_read_arbiter.v": "b21d3141ce28232f184ec64cc3f487b2ff871c4dba76f46f7d9679a99660d025",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    },
+    {
+      "name": "gamma_exact",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_gamma_exact.v": "0abe3292fbd37b61dba85bf073dac69d75c3eba94eee5bcdee0869404f2afcef",
+        "verification/v4/gamma_reference.v": "04e4d2901227343029012e674f7629b7e4a734a934281229a944621408b8f885",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "scene_adaptation",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_scene_adaptation.v": "ff246bb3ba3f63aecd7fe1bca53b52653ebc15baac4eca75617d334613da8635",
+        "source/rtl/adaptive_preprocess_osd.v": "09d95131cabac4e61a6747826fc69b86daca95574b664cebdd303fedf37249e8",
+        "source/rtl/scene_light_reference.v": "67733daaf606bacb0822a222db1a2cbc726bd966f2ccfacca5760f761346d384",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "boot_controls",
+      "passed": true,
+      "inputs": {
+        "verification/v4/tb_boot_controls.v": "0a0f329849b92c7d87c499d129afbe5b442c796784cf4a2dd9df5400773a6c49",
+        "source/rtl/return_pc_bridge.v": "461b335c57340f510366914f77a41537e426875bb565caed1953efdb8577f598",
+        "source/transport/host_command_parser.v": "a65bfadbe24b7b7a34217b5f61a34ba80b9ca22a49cba17e21b9e791ee360225",
+        "source/transport/cdc_mailbox.v": "05b273dcf18411cfdf0ba8909848b9a565a5d4ec245ce305f280713c2e6f2de5"
+      }
+    }
+  ]
+}

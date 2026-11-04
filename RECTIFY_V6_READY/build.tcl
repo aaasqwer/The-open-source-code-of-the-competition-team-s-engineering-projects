@@ -1,0 +1,109 @@
+set project_root [file dirname [info script]]
+cd $project_root
+set rtl_files {
+ source/transport/ethernet_photo_window.v
+ source/rtl/status_cn_overlay.v
+ source/rtl/rect_performance_monitor.v
+ source/rtl/hdmi_natural_tone.v
+ source/transport/rect_preview_stream.v
+ source/rtl/network_pair_reader.v
+ source/evaluation/board_osd.v
+ source/evaluation/measurement_digits.v
+ source/evaluation/measurement_window.v
+ source/evaluation/parameter_digits.v
+ source/evaluation/roi_edge_core.v
+ source/evaluation/roi_evaluator.v
+ source/evaluation/sfr_digits.v
+ source/evaluation/sfr_meter.v
+ source/evaluation/straightness_meter.v
+ source/rtl/adaptive_preprocess_osd.v
+ source/rtl/bilinear_rgb565_pipe.v
+ source/rtl/build_resource_info.v
+ source/rtl/camera_frame_writer.v
+ source/rtl/camera_gamma_table.v
+ source/rtl/cmos_8_16bit.v
+ source/rtl/fram_buf.v
+ source/rtl/gamma_rgb_preserve.v
+ source/rtl/hdmi_ddr_ov5640_top.v
+ source/rtl/hdmi_sdr_output.v
+ source/rtl/i2c_com.v
+ source/rtl/iic_dri.v
+ source/rtl/imu_angle_cdc.v
+ source/rtl/imu_angle_stabilizer.v
+ source/rtl/imu_angle_tracker.v
+ source/rtl/imu_font_cn.v
+ source/rtl/imu_gravity_projector.v
+ source/rtl/imu_gravity_projector_calibrated.v
+ source/rtl/imu_hud_overlay.v
+ source/rtl/imu_link.v
+ source/rtl/imu_ms901m_parser.v
+ source/rtl/imu_pose_font.v
+ source/rtl/imu_rotation_coeff.v
+ source/rtl/imu_snapshot_cdc.v
+ source/rtl/imu_telemetry.v
+ source/rtl/imu_uart_rx.v
+ source/rtl/lens_config_bank.v
+ source/rtl/ms7200_ctl.v
+ source/rtl/ms7210_ctl.v
+ source/rtl/ms72xx_ctl.v
+ source/rtl/network_raw_reader.v
+ source/rtl/network_read_arbiter.v
+ source/rtl/ov5640_light_meter.v
+ source/rtl/pose_geometry.v
+ source/rtl/pose_page_overlay.v
+ source/rtl/power_on_delay.v
+ source/rtl/rect_board_ui.v
+ source/rtl/rect_brown_node.v
+ source/rtl/rect_coordinate_tiles.v
+ source/rtl/rect_evaluation_overlay.v
+ source/rtl/rect_frame_engine.v
+ source/rtl/rect_geometry_bank.v
+ source/rtl/rect_imu_affine_pipe.v
+ source/rtl/rect_lens_field.v
+ source/rtl/rect_projective_pipe.v
+ source/rtl/rect_status_overlay.v
+ source/rtl/rect_tile_sampler.v
+ source/rtl/rect_wide_mul_pipe.v
+ source/rtl/reg_config.v
+ source/rtl/return_pc_bridge.v
+ source/rtl/scene_light_reference.v
+ source/rtl/sync_vg.v
+ source/rtl/uart_tx_8n1.v
+ source/rtl/video_ddr_fabric.v
+ source/rtl/video_frame_scan.v
+ source/rtl/video_input_monitor.v
+ source/transport/cdc_mailbox.v
+ source/transport/ethernet_ack_rx.v
+ source/transport/ethernet_image_bridge.v
+ source/transport/ethernet_image_tx.v
+ source/transport/fast_snapshot_ctrl.v
+ source/transport/fast_snapshot_line_buffer.v
+ source/transport/hd_preview_udp_tx.v
+ source/transport/host_command_parser.v
+ source/transport/preview_line_encoder.v
+ source/transport/raw_preview_stream.v
+ source/transport/rgb565_line_encoder.v
+ source/transport/rgmii_interface.v
+ source/transport/team_uart_rx_8n1.v
+ source/transport/team_uart_tx_8n1.v
+ source/transport/telemetry_packetizer.v
+ source/transport/uart_packet_tx.v
+}
+foreach f $rtl_files {add_design $f}
+add_design ipcore/pll/pll.idf
+add_design ipcore/ddr3_test/ddr3_test.idf
+add_design ipcore/eth_ref_clock/ref_clock.v
+add_constraint RECTIFY_BOARD.fdc
+set_arch -family Logos2 -device PG2L100H -speedgrade -6 -package FBG676
+compile -top_module hdmi_ddr_ov5640_top
+if {![info exists ::env(RECTIFY_COMPILE_ONLY)] || $::env(RECTIFY_COMPILE_ONLY) ne "1"} {
+ synthesize -ads -selected_syn_tool_opt 2
+ dev_map
+ if {![info exists ::env(RECTIFY_MAP_ONLY)] || $::env(RECTIFY_MAP_ONLY) ne "1"} {
+ pnr -gplace_seed 6 -plc_decongestion 2 -early_block_placement Global -optimize_multi_corner_timing -fix_hold_violation -fix_hold_violation_in_route TRUE -fix_hold_violation_iterations 20 -fix_hold_violation_threshold 50 -fix_hold_violation_threshold_for_clock_path_cross_srb 50 -fix_hold_violation_threshold_for_clk_tree 50
+ report_timing
+ report_power
+ gen_netlist
+ gen_bit_stream
+ }
+}

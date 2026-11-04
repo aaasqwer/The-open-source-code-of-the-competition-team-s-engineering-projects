@@ -1,0 +1,29 @@
+﻿V6 工程和上位机，已放在同一个文件夹里
+
+一、打开FPGA工程
+双击 RECTIFY_BOARD.pds，用PDS打开。
+现成的下载位流：release\RECTIFY_BOARD.sbit。
+generate_bitstream里保留相同位流，供PDS常规目录使用。
+
+二、打开上位机
+先关闭旧上位机，再双击“启动上位机.bat”。
+选择这台电脑实际出现的参数COM口。网口、串口设置沿用原来配置。
+图像监听：0.0.0.0，UDP端口8080。
+
+三、打开独立测评工具
+双击“启动独立测评工具.bat”。
+详细图文操作见“独立测评工具_一步一步.md”。
+
+四、保留的有用内容
+source、ipcore、calibration：FPGA源码、IP和标定参数。
+host、host_app：上位机源码和完整可运行程序。
+evaluation、evaluation_app：独立测评源码和完整可运行程序。
+tools、verification：重建/检查工具和本版验收资料。
+
+复制到另一台电脑时，复制整个RECTIFY_V6_READY文件夹。
+host_app和evaluation_app中的_internal是运行库，必须保留。
+正常运行现成程序不需要另装Python。
+
+本次只是整理文件，没有修改Gamma、IMU回正、曝光、色彩、矫正算法、网口或串口代码。
+旧版位流、历史报告、重复依赖、预览试验图、仿真二进制和临时构建文件未放入此整合包。
+本版仍须进行实板验收，整体直线度RMS约0.7120像素，尚未证明低于0.5。

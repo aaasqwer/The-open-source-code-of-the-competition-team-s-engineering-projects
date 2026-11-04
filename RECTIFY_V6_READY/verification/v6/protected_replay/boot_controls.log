@@ -1,0 +1,2 @@
+PASS actual bridge/parser/CDC: Gamma auto-on at boot, original UART commands toggle bypass only at frame boundaries, photo hold respected
+verification/v4/tb_boot_controls.v:21: $finish called at 4046000 (1ps)

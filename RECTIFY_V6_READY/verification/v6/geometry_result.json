@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "controls",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_controls.v": "75588ce7e978d04f91d8bbeb07650383d092985d7ed1cf0d37ab8f76e8c20697",
+        "source/rtl/rect_board_ui.v": "64631b8df1ce2f515b37a36a0a7e59ea9bde88904ed20555791ecd47e1a42817",
+        "source/rtl/rect_geometry_bank.v": "12f6adf7139ecb384bd0e7cff1e5ddba6227bcf69952124fd8db2336451172e6",
+        "source/transport/host_command_parser.v": "a65bfadbe24b7b7a34217b5f61a34ba80b9ca22a49cba17e21b9e791ee360225"
+      }
+    },
+    {
+      "name": "frame",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_frame_engine.v": "d58b41f7920ccc6bee52ebb1db6bffd2c8e15193f1fa3e569b3d66a74b3ba1f8",
+        "source/rtl/rect_frame_engine.v": "5205a6367ba545872bdce0256e128982c32d0d53915e67a4425c98dec1aa0e86",
+        "source/rtl/rect_coordinate_tiles.v": "40283e9af16c6781bece25f03684e84395a76b2f7d0fccf27ca62b0f64de600f",
+        "source/rtl/rect_projective_pipe.v": "6bd58eed697f212011357851ee0468bb74272b34983424e644b5e2d7e3c0eb26",
+        "source/rtl/rect_wide_mul_pipe.v": "e1712992da31f9b480365c839de1a22f08d8a2d526b29e95221b48b222b89dbf",
+        "source/rtl/rect_imu_affine_pipe.v": "be5e708fc40a5def2242c2ddeb553dddb91af35ec0d0c6e4dcf53c25221c31e0",
+        "source/rtl/rect_tile_sampler.v": "34bd1dcf713578b1184acbc08a71d9a857392b9b4f12b136e0a7d39cb2a7fea6",
+        "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44",
+        "source/rtl/bilinear_rgb565_pipe.v": "3a61760711d2a432441a2cc817a74d8460c67cae441913525a50f1633b07784f",
+        "source/rtl/imu_rotation_coeff.v": "5019ecedfc831b1e6747d2ef3fb7ca015257bb8673923298609741e86824a78a",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "partial",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_partial_frame.v": "33e5f6203c2c9a81fb76059dae138dcafb456aa491880d575453d32d5a778024",
+        "source/rtl/rect_frame_engine.v": "5205a6367ba545872bdce0256e128982c32d0d53915e67a4425c98dec1aa0e86",
+        "source/rtl/rect_coordinate_tiles.v": "40283e9af16c6781bece25f03684e84395a76b2f7d0fccf27ca62b0f64de600f",
+        "source/rtl/rect_projective_pipe.v": "6bd58eed697f212011357851ee0468bb74272b34983424e644b5e2d7e3c0eb26",
+        "source/rtl/rect_wide_mul_pipe.v": "e1712992da31f9b480365c839de1a22f08d8a2d526b29e95221b48b222b89dbf",
+        "source/rtl/rect_imu_affine_pipe.v": "be5e708fc40a5def2242c2ddeb553dddb91af35ec0d0c6e4dcf53c25221c31e0",
+        "source/rtl/rect_tile_sampler.v": "34bd1dcf713578b1184acbc08a71d9a857392b9b4f12b136e0a7d39cb2a7fea6",
+        "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44",
+        "source/rtl/bilinear_rgb565_pipe.v": "3a61760711d2a432441a2cc817a74d8460c67cae441913525a50f1633b07784f",
+        "source/rtl/imu_rotation_coeff.v": "5019ecedfc831b1e6747d2ef3fb7ca015257bb8673923298609741e86824a78a",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "perspective",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_nonlinear_frame.v": "beb6ef047f1ba0759a56d7d01910f5b754edc164ef24eb415a306cab24992d76",
+        "source/rtl/rect_frame_engine.v": "5205a6367ba545872bdce0256e128982c32d0d53915e67a4425c98dec1aa0e86",
+        "source/rtl/rect_coordinate_tiles.v": "40283e9af16c6781bece25f03684e84395a76b2f7d0fccf27ca62b0f64de600f",
+        "source/rtl/rect_projective_pipe.v": "6bd58eed697f212011357851ee0468bb74272b34983424e644b5e2d7e3c0eb26",
+        "source/rtl/rect_wide_mul_pipe.v": "e1712992da31f9b480365c839de1a22f08d8a2d526b29e95221b48b222b89dbf",
+        "source/rtl/rect_imu_affine_pipe.v": "be5e708fc40a5def2242c2ddeb553dddb91af35ec0d0c6e4dcf53c25221c31e0",
+        "source/rtl/rect_tile_sampler.v": "34bd1dcf713578b1184acbc08a71d9a857392b9b4f12b136e0a7d39cb2a7fea6",
+        "source/rtl/rect_lens_field.v": "d305cbe945d3758c4092d8867bfcf6d229a88a6bab4458367e7561ff858d00a0",
+        "source/rtl/rect_brown_node.v": "c866081aabaafac4438f6fad3a76389e1b98ae405ea91f564bb72e9cdb85ec44",
+        "source/rtl/bilinear_rgb565_pipe.v": "3a61760711d2a432441a2cc817a74d8460c67cae441913525a50f1633b07784f",
+        "source/rtl/imu_rotation_coeff.v": "5019ecedfc831b1e6747d2ef3fb7ca015257bb8673923298609741e86824a78a",
+        "source/rtl/gamma_rgb_preserve.v": "1cae810db4836509d2078bdb9c3805b570256e4177ee072448f0ce0da7901360"
+      }
+    },
+    {
+      "name": "scan",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_freeze_scan.v": "9c4ff7343c8023e432f71a8d6e93fc7975a27908a3c31bc42c5d0ae28e131fbd",
+        "source/rtl/video_frame_scan.v": "f2f75ed5882aab6eafda62b535df70d45da5e797ffca6e328ab652380603a297"
+      }
+    },
+    {
+      "name": "reciprocal",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_reciprocal_stress.v": "f8fa16aeec739dc6a33452e0dcc5628aab58db9df1b9c195873827ef41e06324",
+        "source/rtl/rect_projective_pipe.v": "6bd58eed697f212011357851ee0468bb74272b34983424e644b5e2d7e3c0eb26",
+        "source/rtl/rect_wide_mul_pipe.v": "e1712992da31f9b480365c839de1a22f08d8a2d526b29e95221b48b222b89dbf"
+      },
+      "max_error_px": 0.000244140625
+    },
+    {
+      "name": "scan1080",
+      "passed": true,
+      "source_sha256": {
+        "verification/tb_freeze_scan.v": "9c4ff7343c8023e432f71a8d6e93fc7975a27908a3c31bc42c5d0ae28e131fbd",
+        "source/rtl/video_frame_scan.v": "f2f75ed5882aab6eafda62b535df70d45da5e797ffca6e328ab652380603a297"
+      },
+      "reused_from": "F:\\FPGA\\ji bian\\RECTIFY_V5_CAPTURE_MEASURE_20261102_150254\\verification\\v5\\geometry_result.json",
+      "reuse_reason": "Full 1080P scan fixture and scanner are byte-identical; not rerun in V6."
+    }
+  ]
+}

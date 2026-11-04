@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "analytic_sfr_cases": 9,
+  "dark_edge_cases": [
+    {
+      "noise_sigma": 0,
+      "amplitude": 24,
+      "brightness_range": [
+        10,
+        34
+      ],
+      "valid_sfr": 8,
+      "total": 8,
+      "max_mtf50_relative_error": 0.013343782345735855,
+      "minimum_detected_coverage": 1.0
+    },
+    {
+      "noise_sigma": 0.5,
+      "amplitude": 24,
+      "brightness_range": [
+        10,
+        34
+      ],
+      "valid_sfr": 8,
+      "total": 8,
+      "max_mtf50_relative_error": 0.017382820063460924,
+      "minimum_detected_coverage": 1.0
+    },
+    {
+      "noise_sigma": 1.0,
+      "amplitude": 24,
+      "brightness_range": [
+        10,
+        34
+      ],
+      "valid_sfr": 8,
+      "total": 8,
+      "max_mtf50_relative_error": 0.022890765895212217,
+      "minimum_detected_coverage": 1.0
+    },
+    {
+      "noise_sigma": 2.0,
+      "amplitude": 24,
+      "brightness_range": [
+        10,
+        34
+      ],
+      "valid_sfr": 0,
+      "total": 8,
+      "max_mtf50_relative_error": null,
+      "minimum_detected_coverage": 1.0
+    },
+    {
+      "noise_sigma": 4.0,
+      "amplitude": 24,
+      "brightness_range": [
+        10,
+        34
+      ],
+      "valid_sfr": 0,
+      "total": 8,
+      "max_mtf50_relative_error": null,
+      "minimum_detected_coverage": 0
+    }
+  ],
+  "noise_only_rejected": 30,
+  "bowed_edge_not_flattened": true,
+  "user4_live_rms": 0.23725300985478465,
+  "user4_independent_rms": 0.2664298090576132,
+  "user4_samples": 36,
+  "user4_actual_angle": 9.644225535878334,
+  "static_rms_persists": true,
+  "stalled_live_keeps_numbers_and_labels_age": true,
+  "failed_edge_does_not_abort_other_results": true,
+  "inputs": {
+    "host\\live_quality.py": "07bd0d3bf65b7c56b461a84c2f2552db266fe8b62347ec3cc8198fd5d4d6e6ca",
+    "host\\live_quality_ui.py": "b720d58378ebf3f0e00e13cf3aaf714821acfa012845e6a4819874065ebaeb19",
+    "host\\edge_detection.py": "6b86cb50ad79c9f82cddcb0e6eb4660fd749cecc50e3c6a455b11b3edc540a31",
+    "host\\quality_core.py": "327fe902b855d1d409480f3bc6b49ba396f9312ae9a1ecfb65a19fdd7c8e29f3",
+    "evaluation\\image_quality.py": "327fe902b855d1d409480f3bc6b49ba396f9312ae9a1ecfb65a19fdd7c8e29f3",
+    "evaluation\\edge_detection.py": "6b86cb50ad79c9f82cddcb0e6eb4660fd749cecc50e3c6a455b11b3edc540a31"
+  }
+}

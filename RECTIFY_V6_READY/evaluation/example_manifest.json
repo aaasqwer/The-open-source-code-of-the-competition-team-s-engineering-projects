@@ -1,0 +1,126 @@
+{
+  "note": "Worked tool examples. OLD processed photo and SYNTHETIC edge; neither is a new V3 optical acceptance measurement.",
+  "images": [
+    {
+      "path": "examples/old_K0_processed_example_1280x720.png",
+      "role": "OLD_PROCESSED_TOOL_EXAMPLE_ONLY_NOT_V3",
+      "lines": [
+        {
+          "name": "internal_row_0",
+          "anchors": [
+            [
+              295.0482482910156,
+              167.2279052734375
+            ],
+            [
+              376.10430908203125,
+              173.4404296875
+            ],
+            [
+              458.4898681640625,
+              180.49099731445312
+            ],
+            [
+              539.19580078125,
+              187.2299041748047
+            ]
+          ],
+          "half_width": 8
+        },
+        {
+          "name": "internal_row_1",
+          "anchors": [
+            [
+              290.54461669921875,
+              250.15243530273438
+            ],
+            [
+              372.5110778808594,
+              255.6951446533203
+            ],
+            [
+              454.1199645996094,
+              262.22796630859375
+            ],
+            [
+              533.3344116210938,
+              267.85089111328125
+            ]
+          ],
+          "half_width": 8
+        },
+        {
+          "name": "internal_col_0",
+          "anchors": [
+            [
+              295.0482482910156,
+              167.2279052734375
+            ],
+            [
+              290.54461669921875,
+              250.15243530273438
+            ]
+          ],
+          "half_width": 8
+        },
+        {
+          "name": "internal_col_1",
+          "anchors": [
+            [
+              376.10430908203125,
+              173.4404296875
+            ],
+            [
+              372.5110778808594,
+              255.6951446533203
+            ]
+          ],
+          "half_width": 8
+        },
+        {
+          "name": "internal_col_2",
+          "anchors": [
+            [
+              458.4898681640625,
+              180.49099731445312
+            ],
+            [
+              454.1199645996094,
+              262.22796630859375
+            ]
+          ],
+          "half_width": 8
+        },
+        {
+          "name": "internal_col_3",
+          "anchors": [
+            [
+              539.19580078125,
+              187.2299041748047
+            ],
+            [
+              533.3344116210938,
+              267.85089111328125
+            ]
+          ],
+          "half_width": 8
+        }
+      ]
+    },
+    {
+      "path": "examples/synthetic_sfr_sigma1p4.png",
+      "role": "SYNTHETIC_SFR_SANITY_NOT_CAMERA_MEASUREMENT",
+      "sfr_rois": [
+        {
+          "name": "gaussian_sigma1p4",
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 256,
+          "gamma": "linear",
+          "axis": "vertical"
+        }
+      ]
+    }
+  ]
+}

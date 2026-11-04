@@ -1,0 +1,648 @@
+[Info] [2026-11-4 00:11:30] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:11:30] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:11:30] Version: 146967
+[Info] [2026-11-4 00:11:31] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:11:31] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:11:35] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:11:35] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:11:35] Client Local Address:169.254.237.98
+[Debug] [2026-11-4 00:11:35] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:11:35] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:11:35] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:11:35] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:11:35] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:11:35] Finish.
+[Info] [2026-11-4 00:11:35] Connect server succeeded
+[Debug] [2026-11-4 00:11:35] Send RPC:1
+[Debug] [2026-11-4 00:11:35] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:11:35] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:11:37] Send RPC:2
+[Debug] [2026-11-4 00:11:37] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:11:37] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:11:37] Send RPC:3
+[Debug] [2026-11-4 00:11:37] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:11:37] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:11:37] COMMAND[check version information] execute successfully, takes 1.6 secs.
+[Debug] [2026-11-4 00:11:37] Log::Print : COMMAND[check version information] execute successfully, takes 1.6 secs.
+[Debug] [2026-11-4 00:11:39] COMMAND[get_cable_paras] execute successfully, takes 1.8 secs.
+[Debug] [2026-11-4 00:11:39] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-4 00:11:39] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.8 secs.
+[Debug] [2026-11-4 00:11:40] begin the exec of open cable cmd...
+[Debug] [2026-11-4 00:11:40] Begin to deal with chain from server...
+[Debug] [2026-11-4 00:11:40] Begin to set user chain...
+[Debug] [2026-11-4 00:11:40] End to set user chain.
+[Debug] [2026-11-4 00:11:40] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:40] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:40] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-4 00:11:40] Log::Print : PG2L100H
+[Debug] [2026-11-4 00:11:40] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-4 00:11:43] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-4 00:11:43] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:11:43] end to get device info from CFG file...
+[Debug] [2026-11-4 00:11:43] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:43] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:43] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:43] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:11:43] End to deal wiht chain from server.
+[Debug] [2026-11-4 00:11:43] end the exec of open cable cmd.
+[Debug] [2026-11-4 00:11:43] COMMAND[Open config cable] execute successfully, takes 5.8 secs.
+[Debug] [2026-11-4 00:11:43] Log::Print : COMMAND[Open config cable] execute successfully, takes 5.8 secs.
+[Info] [2026-11-4 00:12:45] /***************************End Configration***************************/
+[Info] [2026-11-4 00:16:25] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:16:25] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:16:25] Version: 146967
+[Info] [2026-11-4 00:16:26] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:16:26] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:16:28] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:16:28] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:16:28] Client Local Address:169.254.237.98
+[Debug] [2026-11-4 00:16:28] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:16:28] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:16:28] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:16:28] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:16:29] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:16:29] Finish.
+[Info] [2026-11-4 00:16:29] Connect server succeeded
+[Debug] [2026-11-4 00:16:29] Send RPC:1
+[Debug] [2026-11-4 00:16:29] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:16:29] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:16:29] Send RPC:2
+[Debug] [2026-11-4 00:16:29] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:16:29] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:16:29] Send RPC:3
+[Debug] [2026-11-4 00:16:29] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:16:29] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:16:29] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2026-11-4 00:16:29] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2026-11-4 00:16:30] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:16:30] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-4 00:16:30] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:16:31] begin the exec of open cable cmd...
+[Debug] [2026-11-4 00:16:31] Begin to deal with chain from server...
+[Debug] [2026-11-4 00:16:31] Begin to set user chain...
+[Debug] [2026-11-4 00:16:31] End to set user chain.
+[Debug] [2026-11-4 00:16:31] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:31] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:31] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-4 00:16:31] Log::Print : PG2L100H
+[Debug] [2026-11-4 00:16:31] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-4 00:16:34] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-4 00:16:34] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:16:34] end to get device info from CFG file...
+[Debug] [2026-11-4 00:16:34] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:34] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:34] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:34] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:16:34] End to deal wiht chain from server.
+[Debug] [2026-11-4 00:16:34] end the exec of open cable cmd.
+[Debug] [2026-11-4 00:16:34] COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2026-11-4 00:16:34] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2026-11-4 00:16:37] Begin to send programming cmd...
+[Debug] [2026-11-4 00:16:37] Send RPC:4
+[Debug] [2026-11-4 00:16:37] Begin to send program data.
+[Debug] [2026-11-4 00:16:37] End to send program data.
+[Debug] [2026-11-4 00:16:37] Send cmd [Program:20002] OK
+[Debug] [2026-11-4 00:16:38] The value of Progress is 6
+[Debug] [2026-11-4 00:16:38] The value of Progress is 10
+[Debug] [2026-11-4 00:16:38] The value of Progress is 15
+[Debug] [2026-11-4 00:16:38] The value of Progress is 20
+[Debug] [2026-11-4 00:16:38] The value of Progress is 25
+[Debug] [2026-11-4 00:16:38] The value of Progress is 30
+[Debug] [2026-11-4 00:16:38] The value of Progress is 35
+[Debug] [2026-11-4 00:16:39] The value of Progress is 40
+[Debug] [2026-11-4 00:16:39] The value of Progress is 45
+[Debug] [2026-11-4 00:16:39] The value of Progress is 50
+[Debug] [2026-11-4 00:16:39] The value of Progress is 55
+[Debug] [2026-11-4 00:16:39] The value of Progress is 60
+[Debug] [2026-11-4 00:16:39] The value of Progress is 65
+[Debug] [2026-11-4 00:16:40] The value of Progress is 70
+[Debug] [2026-11-4 00:16:40] The value of Progress is 75
+[Debug] [2026-11-4 00:16:40] The value of Progress is 80
+[Debug] [2026-11-4 00:16:40] The value of Progress is 85
+[Debug] [2026-11-4 00:16:40] The value of Progress is 90
+[Debug] [2026-11-4 00:16:40] The value of Progress is 95
+[Debug] [2026-11-4 00:16:41] The value of Progress is 100
+[Debug] [2026-11-4 00:16:41] COMMAND[Program] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-4 00:16:41] End to send programming cmd.
+[Debug] [2026-11-4 00:16:41] Log::Print : The done bit is 1
+[Debug] [2026-11-4 00:16:41] Log::Print : COMMAND[Program] execute successfully, takes 3.8 secs.
+[Info] [2026-11-4 00:23:06] /***************************End Configration***************************/
+[Info] [2026-11-4 00:29:12] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:29:12] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:29:12] Version: 146967
+[Info] [2026-11-4 00:29:13] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:13] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:16] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:29:16] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:29:16] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:29:16] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:29:16] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:29:16] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:29:17] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:29:17] Finish.
+[Info] [2026-11-4 00:29:17] Connect server succeeded
+[Debug] [2026-11-4 00:29:17] Send RPC:1
+[Debug] [2026-11-4 00:29:17] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:29:17] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:29:20] Send RPC:2
+[Debug] [2026-11-4 00:29:20] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:29:20] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:29:20] Send RPC:3
+[Debug] [2026-11-4 00:29:20] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:29:20] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:29:20] COMMAND[check version information] execute successfully, takes 3.2 secs.
+[Debug] [2026-11-4 00:29:20] Log::Print : COMMAND[check version information] execute successfully, takes 3.2 secs.
+[Debug] [2026-11-4 00:29:23] COMMAND[get_cable_paras] execute successfully, takes 2.9 secs.
+[Debug] [2026-11-4 00:29:23] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+Cable index 1:USB Cable II/fffffffffffffffd 
+
+[Debug] [2026-11-4 00:29:23] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 2.9 secs.
+[Info] [2026-11-4 00:29:32] /***************************End Configration***************************/
+[Info] [2026-11-4 00:29:34] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:29:34] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:29:34] Version: 146967
+[Info] [2026-11-4 00:29:35] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:35] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:44] /***************************End Configration***************************/
+[Info] [2026-11-4 00:29:46] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:29:46] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:29:46] Version: 146967
+[Info] [2026-11-4 00:29:47] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:47] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:29:49] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:29:49] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:29:49] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:29:49] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:29:49] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:29:49] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:29:49] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:29:49] Finish.
+[Info] [2026-11-4 00:29:49] Connect server succeeded
+[Debug] [2026-11-4 00:29:49] Send RPC:1
+[Debug] [2026-11-4 00:29:49] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:29:49] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:29:52] Send RPC:2
+[Debug] [2026-11-4 00:29:52] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:29:52] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:29:52] Send RPC:3
+[Debug] [2026-11-4 00:29:52] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:29:52] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:29:52] COMMAND[check version information] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-4 00:29:52] Log::Print : COMMAND[check version information] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-4 00:29:54] COMMAND[get_cable_paras] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-4 00:29:54] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+Cable index 1:USB Cable II/fffffffffffffffd 
+
+[Debug] [2026-11-4 00:29:54] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 2.3 secs.
+[Error] [2026-11-4 00:30:07] fail to exec Open config cable cmd...
+[Error] [2026-11-4 00:30:07] MsgOut: JtagServer-0006: Fail to open PANGO USB CABLE II cable.
+[Error] [2026-11-4 00:30:07] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2026-11-4 00:30:07] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2026-11-4 00:30:07] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2026-11-4 00:30:07] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:30:07] Send RPC:4
+[Debug] [2026-11-4 00:30:07] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:30:07] End to send initialize chain cmd.
+[Error] [2026-11-4 00:30:08] fail to exec Open config cable cmd...
+[Error] [2026-11-4 00:30:08] MsgOut: JtagServer-0006: Fail to open PANGO USB CABLE II cable.
+[Error] [2026-11-4 00:30:08] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2026-11-4 00:30:08] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2026-11-4 00:30:08] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2026-11-4 00:30:09] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:30:09] Send RPC:5
+[Debug] [2026-11-4 00:30:09] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:30:09] End to send initialize chain cmd.
+[Error] [2026-11-4 00:30:10] fail to exec Open config cable cmd...
+[Error] [2026-11-4 00:30:10] MsgOut: JtagServer-0006: Fail to open PANGO USB CABLE II cable.
+[Error] [2026-11-4 00:30:10] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2026-11-4 00:30:10] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2026-11-4 00:30:10] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2026-11-4 00:30:16] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:30:16] Send RPC:6
+[Debug] [2026-11-4 00:30:16] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:30:16] End to send initialize chain cmd.
+[Error] [2026-11-4 00:30:18] fail to exec Open config cable cmd...
+[Error] [2026-11-4 00:30:18] MsgOut: JtagServer-0006: Fail to open PANGO USB CABLE II cable.
+[Error] [2026-11-4 00:30:18] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2026-11-4 00:30:18] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2026-11-4 00:30:18] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Info] [2026-11-4 00:30:29] /***************************End Configration***************************/
+[Info] [2026-11-4 00:30:30] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:30:30] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:30:30] Version: 146967
+[Info] [2026-11-4 00:30:31] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:30:31] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:30:34] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:30:34] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:30:34] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:30:34] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:30:34] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:30:34] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:30:34] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:30:34] Finish.
+[Info] [2026-11-4 00:30:34] Connect server succeeded
+[Debug] [2026-11-4 00:30:34] Send RPC:1
+[Debug] [2026-11-4 00:30:34] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:30:34] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:30:37] Send RPC:2
+[Debug] [2026-11-4 00:30:37] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:30:37] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:30:37] Send RPC:3
+[Debug] [2026-11-4 00:30:37] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:30:37] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:30:37] COMMAND[check version information] execute successfully, takes 3.2 secs.
+[Debug] [2026-11-4 00:30:37] Log::Print : COMMAND[check version information] execute successfully, takes 3.2 secs.
+[Debug] [2026-11-4 00:30:41] COMMAND[get_cable_paras] execute successfully, takes 3.1 secs.
+[Debug] [2026-11-4 00:30:41] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+Cable index 1:USB Cable II/fffffffffffffffd 
+
+[Debug] [2026-11-4 00:30:41] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 3.1 secs.
+[Info] [2026-11-4 00:30:48] /***************************End Configration***************************/
+[Info] [2026-11-4 00:31:08] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:31:08] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:31:08] Version: 146967
+[Info] [2026-11-4 00:31:09] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:31:09] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:31:12] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:31:12] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:31:12] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:31:12] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:31:12] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:31:12] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:31:13] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:31:13] Finish.
+[Info] [2026-11-4 00:31:13] Connect server succeeded
+[Debug] [2026-11-4 00:31:13] Send RPC:1
+[Debug] [2026-11-4 00:31:13] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:31:13] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:31:14] Send RPC:2
+[Debug] [2026-11-4 00:31:14] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:31:14] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:31:14] Send RPC:3
+[Debug] [2026-11-4 00:31:14] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:31:14] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:31:14] COMMAND[check version information] execute successfully, takes 1.5 secs.
+[Debug] [2026-11-4 00:31:14] Log::Print : COMMAND[check version information] execute successfully, takes 1.5 secs.
+[Debug] [2026-11-4 00:31:16] COMMAND[get_cable_paras] execute successfully, takes 1.7 secs.
+[Debug] [2026-11-4 00:31:16] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-4 00:31:16] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.7 secs.
+[Debug] [2026-11-4 00:31:17] begin the exec of open cable cmd...
+[Debug] [2026-11-4 00:31:17] Begin to deal with chain from server...
+[Debug] [2026-11-4 00:31:17] Begin to set user chain...
+[Debug] [2026-11-4 00:31:17] End to set user chain.
+[Debug] [2026-11-4 00:31:17] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:17] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:17] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-4 00:31:17] Log::Print : PG2L100H
+[Debug] [2026-11-4 00:31:17] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-4 00:31:22] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-4 00:31:22] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:31:22] end to get device info from CFG file...
+[Debug] [2026-11-4 00:31:22] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:22] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:22] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:22] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:31:22] End to deal wiht chain from server.
+[Debug] [2026-11-4 00:31:22] end the exec of open cable cmd.
+[Debug] [2026-11-4 00:31:22] COMMAND[Open config cable] execute successfully, takes 8.1 secs.
+[Debug] [2026-11-4 00:31:23] Log::Print : COMMAND[Open config cable] execute successfully, takes 8.1 secs.
+[Debug] [2026-11-4 00:31:30] Begin to operate flash.
+[Debug] [2026-11-4 00:31:30] End to operate flash.
+[Debug] [2026-11-4 00:34:04] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:34:04] Send RPC:4
+[Debug] [2026-11-4 00:34:04] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:34:04] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:34:04] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:34:04] MsgOut: JtagServer-0336: Flash id is 0xb4018, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:34:04] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:34:18] Begin to operate flash.
+[Debug] [2026-11-4 00:34:18] End to operate flash.
+[Debug] [2026-11-4 00:35:31] Send RPC:5
+[Debug] [2026-11-4 00:35:31] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-11-4 00:35:31] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:35:31] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:35:37] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:35:37] Send RPC:6
+[Debug] [2026-11-4 00:35:37] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:35:37] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:35:37] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:35:37] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:35:37] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:36:22] Begin to operate flash.
+[Debug] [2026-11-4 00:36:22] End to operate flash.
+[Debug] [2026-11-4 00:36:35] Send RPC:7
+[Debug] [2026-11-4 00:36:35] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-11-4 00:36:35] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:36:35] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:36:40] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:36:40] Send RPC:8
+[Debug] [2026-11-4 00:36:40] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:36:40] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:36:40] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:36:40] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:36:40] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:36:45] Begin to operate flash.
+[Debug] [2026-11-4 00:36:45] End to operate flash.
+[Debug] [2026-11-4 00:37:45] Send RPC:9
+[Debug] [2026-11-4 00:37:45] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-11-4 00:37:45] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:37:45] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:37:48] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:37:48] Send RPC:10
+[Debug] [2026-11-4 00:37:48] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:37:48] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:37:48] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:37:48] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:37:48] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:40:24] Begin to operate flash.
+[Debug] [2026-11-4 00:40:24] End to operate flash.
+[Debug] [2026-11-4 00:42:34] Send RPC:11
+[Debug] [2026-11-4 00:42:34] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-11-4 00:42:34] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:42:34] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:42:38] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:42:38] Send RPC:12
+[Debug] [2026-11-4 00:42:38] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:42:38] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:42:45] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:42:45] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:42:45] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:42:51] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:42:51] Send RPC:13
+[Debug] [2026-11-4 00:42:51] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:42:51] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:42:51] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:42:51] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:42:51] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Info] [2026-11-4 00:43:01] /***************************End Configration***************************/
+[Info] [2026-11-4 00:43:06] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:43:06] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:43:06] Version: 146967
+[Info] [2026-11-4 00:43:07] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:43:07] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:43:09] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:43:09] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:43:09] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:43:09] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:43:09] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:43:09] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:43:10] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:43:10] Finish.
+[Info] [2026-11-4 00:43:10] Connect server succeeded
+[Debug] [2026-11-4 00:43:10] Send RPC:1
+[Debug] [2026-11-4 00:43:10] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:43:10] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:43:10] Send RPC:2
+[Debug] [2026-11-4 00:43:10] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:43:10] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:43:10] Send RPC:3
+[Debug] [2026-11-4 00:43:10] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:43:10] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:43:10] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-4 00:43:10] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-4 00:43:11] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:43:11] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-4 00:43:11] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:43:12] begin the exec of open cable cmd...
+[Debug] [2026-11-4 00:43:12] Begin to deal with chain from server...
+[Debug] [2026-11-4 00:43:12] Begin to set user chain...
+[Debug] [2026-11-4 00:43:12] End to set user chain.
+[Debug] [2026-11-4 00:43:12] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:12] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:12] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-4 00:43:12] Log::Print : PG2L100H
+[Debug] [2026-11-4 00:43:12] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-4 00:43:14] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-4 00:43:14] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:43:14] end to get device info from CFG file...
+[Debug] [2026-11-4 00:43:14] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:14] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:14] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:14] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:43:14] End to deal wiht chain from server.
+[Debug] [2026-11-4 00:43:14] end the exec of open cable cmd.
+[Debug] [2026-11-4 00:43:14] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-4 00:43:14] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-11-4 00:43:18] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:43:18] Send RPC:4
+[Debug] [2026-11-4 00:43:18] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:43:18] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:43:19] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:43:19] MsgOut: JtagServer-0336: Flash id is 0xb4018, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:43:19] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2026-11-4 00:43:24] Begin to operate flash.
+[Debug] [2026-11-4 00:43:24] End to operate flash.
+[Debug] [2026-11-4 00:44:27] Send RPC:5
+[Debug] [2026-11-4 00:44:27] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-11-4 00:44:27] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:44:27] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-4 00:44:29] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:44:29] Send RPC:6
+[Debug] [2026-11-4 00:44:29] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:44:29] End to send scan outer flash cmd.
+[Error] [2026-11-4 00:44:30] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2026-11-4 00:44:30] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2026-11-4 00:44:30] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Info] [2026-11-4 00:44:35] /***************************End Configration***************************/
+[Info] [2026-11-4 00:44:38] /***************************Start Configuration***************************/
+[Info] [2026-11-4 00:44:38] Path: E:/WorkApp/PDS22/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-4 00:44:38] Version: 146967
+[Info] [2026-11-4 00:44:39] Current Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:44:39] PDS Dir Path: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY
+[Info] [2026-11-4 00:44:41] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-11-4 00:44:41] Client Local host name:WIN-20261029EFW
+[Debug] [2026-11-4 00:44:41] Client Local Address:192.168.100.199
+[Debug] [2026-11-4 00:44:41] Client Local Address:198.18.0.1
+[Debug] [2026-11-4 00:44:41] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-11-4 00:44:41] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-11-4 00:44:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-4 00:44:41] Finish.
+[Info] [2026-11-4 00:44:41] Connect server succeeded
+[Debug] [2026-11-4 00:44:41] Send RPC:1
+[Debug] [2026-11-4 00:44:41] Send cmd [check version information:40004] OK
+[Debug] [2026-11-4 00:44:41] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-11-4 00:44:42] Send RPC:2
+[Debug] [2026-11-4 00:44:42] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-4 00:44:42] Begin to send initialize chain cmd...
+[Debug] [2026-11-4 00:44:42] Send RPC:3
+[Debug] [2026-11-4 00:44:42] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-4 00:44:42] End to send initialize chain cmd.
+[Debug] [2026-11-4 00:44:42] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-4 00:44:42] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-4 00:44:43] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:44:43] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-11-4 00:44:43] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-4 00:44:43] begin the exec of open cable cmd...
+[Debug] [2026-11-4 00:44:43] Begin to deal with chain from server...
+[Debug] [2026-11-4 00:44:43] Begin to set user chain...
+[Debug] [2026-11-4 00:44:43] End to set user chain.
+[Debug] [2026-11-4 00:44:43] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:43] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:43] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-11-4 00:44:43] Log::Print : PG2L100H
+[Debug] [2026-11-4 00:44:43] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-11-4 00:44:46] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit
+[Debug] [2026-11-4 00:44:46] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:44:46] end to get device info from CFG file...
+[Debug] [2026-11-4 00:44:46] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:46] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:46] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:46] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:46] End to deal wiht chain from server.
+[Debug] [2026-11-4 00:44:46] end the exec of open cable cmd.
+[Debug] [2026-11-4 00:44:46] COMMAND[Open config cable] execute successfully, takes 4.3 secs.
+[Debug] [2026-11-4 00:44:46] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.3 secs.
+[Debug] [2026-11-4 00:44:49] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:44:49] Send RPC:4
+[Debug] [2026-11-4 00:44:49] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:44:49] End to send scan outer flash cmd.
+[Debug] [2026-11-4 00:44:49] begin to exec scan jtag flash cmd...
+[Debug] [2026-11-4 00:44:49] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-11-4 00:44:49] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:44:49] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:45:01] selected file name is empty and ignore.
+[Debug] [2026-11-4 00:45:01] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-11-4 00:45:01] end to exec scan jtag flash cmd...
+[Debug] [2026-11-4 00:45:01] COMMAND[Scan Outer SPI Flash] execute successfully, takes 12.5 secs.
+[Debug] [2026-11-4 00:45:01] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 12.5 secs.
+[Debug] [2026-11-4 00:45:27] Begin to operate flash.
+[Debug] [2026-11-4 00:45:27] End to operate flash.
+[Debug] [2026-11-4 00:45:36] Begin to Converte file.
+[Debug] [2026-11-4 00:46:15] begin to parse sfc file.
+[Debug] [2026-11-4 00:46:15] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:46:15] end to get device info from CFG file...
+[Debug] [2026-11-4 00:46:15] begin to get device info from CFG file...
+[Debug] [2026-11-4 00:46:15] end to get device info from CFG file...
+[Debug] [2026-11-4 00:46:15] end to parse sfc file.
+[Debug] [2026-11-4 00:46:15] Log::Print : The Start Address of bit file E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sbit: 0x0
+[Debug] [2026-11-4 00:46:16] End to Converte file.
+[Debug] [2026-11-4 00:46:26] Begin to send scan outer flash cmd...
+[Debug] [2026-11-4 00:46:26] Send RPC:5
+[Debug] [2026-11-4 00:46:26] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-11-4 00:46:26] End to send scan outer flash cmd.
+[Debug] [2026-11-4 00:46:27] begin to exec scan jtag flash cmd...
+[Debug] [2026-11-4 00:46:27] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-11-4 00:46:27] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:46:27] End to update graphic item and tree item ...
+[Info] [2026-11-4 00:46:29] set OpenLastPath: E:/FPGA_26_Game/RECTIFY_V6_READY/RECTIFY_V6_READY/generate_bitstream/hdmi_ddr_ov5640_top.sfc
+[Debug] [2026-11-4 00:46:29] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2026-11-4 00:46:29] end to check SFC File and Flash Device Read Mode.
+[Debug] [2026-11-4 00:46:29] Begin to update graphic item and tree item ...
+[Debug] [2026-11-4 00:46:29] End to update graphic item and tree item ...
+[Debug] [2026-11-4 00:46:29] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-11-4 00:46:29] end to exec scan jtag flash cmd...
+[Debug] [2026-11-4 00:46:29] COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.1 secs.
+[Debug] [2026-11-4 00:46:29] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.1 secs.
+[Debug] [2026-11-4 00:46:37] begin to send promgram jtag flash cmd.
+[Debug] [2026-11-4 00:46:37] begin to send jtag flash erase cmd
+[Debug] [2026-11-4 00:46:37] Send RPC:6
+[Debug] [2026-11-4 00:46:37] Begin to send embed flash erase data.
+[Debug] [2026-11-4 00:46:37] Begin to send flash erase data.
+[Debug] [2026-11-4 00:46:37] End to send flash erase data.
+[Debug] [2026-11-4 00:46:37] End to send embed flash erase data.
+[Debug] [2026-11-4 00:46:37] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2026-11-4 00:46:37] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-4 00:46:38] The value of Progress is 1
+[Debug] [2026-11-4 00:46:39] The value of Progress is 6
+[Debug] [2026-11-4 00:46:39] The value of Progress is 10
+[Debug] [2026-11-4 00:46:40] The value of Progress is 15
+[Debug] [2026-11-4 00:46:41] The value of Progress is 20
+[Debug] [2026-11-4 00:46:41] The value of Progress is 25
+[Debug] [2026-11-4 00:46:42] The value of Progress is 31
+[Debug] [2026-11-4 00:46:43] The value of Progress is 36
+[Debug] [2026-11-4 00:46:43] The value of Progress is 41
+[Debug] [2026-11-4 00:46:44] The value of Progress is 46
+[Debug] [2026-11-4 00:46:44] The value of Progress is 50
+[Debug] [2026-11-4 00:46:45] The value of Progress is 55
+[Debug] [2026-11-4 00:46:46] The value of Progress is 60
+[Debug] [2026-11-4 00:46:46] The value of Progress is 65
+[Debug] [2026-11-4 00:46:47] The value of Progress is 70
+[Debug] [2026-11-4 00:46:48] The value of Progress is 75
+[Debug] [2026-11-4 00:46:48] The value of Progress is 81
+[Debug] [2026-11-4 00:46:49] The value of Progress is 86
+[Debug] [2026-11-4 00:46:50] The value of Progress is 91
+[Debug] [2026-11-4 00:46:50] The value of Progress is 96
+[Debug] [2026-11-4 00:46:51] The value of Progress is 100
+[Debug] [2026-11-4 00:46:51] COMMAND[Erase Outer Flash] execute finish, takes 13.6 secs.
+[Debug] [2026-11-4 00:46:51] end to send jtag flash erase cmd.
+[Debug] [2026-11-4 00:46:51] Send RPC:7
+[Debug] [2026-11-4 00:46:51] Begin to send jtag flash program data.
+[Debug] [2026-11-4 00:46:51] Begin to send flash program data.
+[Debug] [2026-11-4 00:46:51] End to send flash program data.
+[Debug] [2026-11-4 00:46:51] End to send embed flash program data.
+[Debug] [2026-11-4 00:46:51] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2026-11-4 00:46:51] Log::Print : COMMAND[Erase Outer Flash] execute finish, takes 13.6 secs.
+[Debug] [2026-11-4 00:46:51] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-4 00:46:51] The value of Progress is 1
+[Debug] [2026-11-4 00:46:55] The value of Progress is 6
+[Debug] [2026-11-4 00:46:57] The value of Progress is 10
+[Debug] [2026-11-4 00:47:00] The value of Progress is 15
+[Debug] [2026-11-4 00:47:03] The value of Progress is 20
+[Debug] [2026-11-4 00:47:06] The value of Progress is 25
+[Debug] [2026-11-4 00:47:09] The value of Progress is 30
+[Debug] [2026-11-4 00:47:12] The value of Progress is 35
+[Debug] [2026-11-4 00:47:15] The value of Progress is 40
+[Debug] [2026-11-4 00:47:18] The value of Progress is 45
+[Debug] [2026-11-4 00:47:21] The value of Progress is 50
+[Debug] [2026-11-4 00:47:24] The value of Progress is 55
+[Debug] [2026-11-4 00:47:27] The value of Progress is 60
+[Debug] [2026-11-4 00:47:30] The value of Progress is 65
+[Debug] [2026-11-4 00:47:33] The value of Progress is 70
+[Debug] [2026-11-4 00:47:36] The value of Progress is 75
+[Debug] [2026-11-4 00:47:39] The value of Progress is 80
+[Debug] [2026-11-4 00:47:42] The value of Progress is 85
+[Debug] [2026-11-4 00:47:45] The value of Progress is 90
+[Debug] [2026-11-4 00:47:48] The value of Progress is 95
+[Debug] [2026-11-4 00:47:51] The value of Progress is 100
+[Debug] [2026-11-4 00:47:51] COMMAND[Program Outer Flash] execute finish, takes 60.0 secs.
+[Debug] [2026-11-4 00:47:51] begin to send jtag flash verify cmd
+[Debug] [2026-11-4 00:47:51] Send RPC:8
+[Debug] [2026-11-4 00:47:51] Begin to send embed flash verify data.
+[Debug] [2026-11-4 00:47:51] Begin to send flash verify data.
+[Debug] [2026-11-4 00:47:51] End to send flash verify data.
+[Debug] [2026-11-4 00:47:51] End to send embed flash verify data.
+[Debug] [2026-11-4 00:47:51] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2026-11-4 00:47:51] Log::Print : COMMAND[Program Outer Flash] execute finish, takes 60.0 secs.
+[Debug] [2026-11-4 00:47:51] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-11-4 00:47:51] The value of Progress is 1
+[Debug] [2026-11-4 00:47:52] The value of Progress is 6
+[Debug] [2026-11-4 00:47:52] The value of Progress is 10
+[Debug] [2026-11-4 00:47:52] The value of Progress is 15
+[Debug] [2026-11-4 00:47:52] The value of Progress is 20
+[Debug] [2026-11-4 00:47:52] The value of Progress is 25
+[Debug] [2026-11-4 00:47:52] The value of Progress is 30
+[Debug] [2026-11-4 00:47:53] The value of Progress is 35
+[Debug] [2026-11-4 00:47:53] The value of Progress is 40
+[Debug] [2026-11-4 00:47:53] The value of Progress is 45
+[Debug] [2026-11-4 00:47:53] The value of Progress is 50
+[Debug] [2026-11-4 00:47:53] The value of Progress is 55
+[Debug] [2026-11-4 00:47:54] The value of Progress is 60
+[Debug] [2026-11-4 00:47:54] The value of Progress is 65
+[Debug] [2026-11-4 00:47:54] The value of Progress is 70
+[Debug] [2026-11-4 00:47:54] The value of Progress is 75
+[Debug] [2026-11-4 00:47:54] The value of Progress is 80
+[Debug] [2026-11-4 00:47:55] The value of Progress is 85
+[Debug] [2026-11-4 00:47:55] The value of Progress is 90
+[Debug] [2026-11-4 00:47:55] The value of Progress is 95
+[Debug] [2026-11-4 00:47:55] The value of Progress is 100
+[Debug] [2026-11-4 00:47:55] COMMAND[Verify Outer Flash] execute successfully, takes 4.4 secs.
+[Debug] [2026-11-4 00:47:55] end to send jtag flash verify cmd
+[Debug] [2026-11-4 00:47:55] end to send jtag flash program cmd.
+[Debug] [2026-11-4 00:47:55] Log::Print : COMMAND[Verify Outer Flash] execute successfully, takes 4.4 secs.
